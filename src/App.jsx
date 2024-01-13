@@ -7,8 +7,6 @@ function App() {
     <>
       <Canvas>
         <Center position={[0, 0.2, 0]}>
-          <ambientLight intensity={Math.PI / 2} />
-
           <Text3D
             font={"../fonts/Audiowide_Regular.json"}
             size={0.45}
